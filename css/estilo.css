@@ -1,4 +1,71 @@
+body{
+    background-color: rgb(206, 206, 206);
+    margin: 0px;
+}
+/*nav*/
 nav{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(34, 34, 34);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0px;
+    border-bottom: 4px solid rgb(114, 184, 153);
+}
+nav img{
+    width: 100%;
+    min-width: 100px;
+    border: 1px solid rgb(255, 255, 255);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid white;
+
+}
+a.ultimoEnlace{
+    border-right:none;
+}
+
+nav label{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    display: inline;
+    font-size: small;
+    margin-left: 1rem;
+}
+nav input{
+    background-color: rgb(34, 34, 34);
+    border: 1px solid white;
+    color: white;
+    font-family: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    display: inline;
+    font-size: small;
+}
+nav button{
+    color: white;
+    background-color: rgb(71, 117, 97);
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+.logo{
+    width: 5%;
+}
+.enlaces{
+    align-items: center;
+    margin-left: 5rem;
+}
+.registro{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 2rem;
 }
