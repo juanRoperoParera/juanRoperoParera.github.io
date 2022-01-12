@@ -1,6 +1,7 @@
 body{
     background-color: rgb(206, 206, 206);
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 /*nav*/
 nav{
@@ -63,4 +64,17 @@ nav button{
 .registroUsuario{
     display: flex;
     flex-direction: column;
+}
+/*MARCAS*/
+.marcas{
+
+}
+.imagenes img{
+    width: 50%;
+    min-width: 100px;
+}
+.imagenes{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
 }
