@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(168, 168, 168);
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -67,14 +67,30 @@ nav button{
 }
 /*MARCAS*/
 .marcas{
-
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 .imagenes img{
     width: 50%;
     min-width: 100px;
 }
 .imagenes{
+    margin-top: 20rem;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin:0px;
+}
+.imagen img{
+    width: 100%;
+}
+.imagen{
+    width: 25%;
+    min-width: 280px;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
 }
