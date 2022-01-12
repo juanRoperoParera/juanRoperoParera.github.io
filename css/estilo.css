@@ -33,20 +33,13 @@ a.ultimoEnlace{
 
 nav label{
     color: white;
-    display: flex;
-    flex-wrap: nowrap;
-    display: inline;
     font-size: small;
-    margin-left: 1rem;
 }
 nav input{
     background-color: rgb(34, 34, 34);
     border: 1px solid white;
     color: white;
     font-family: inherit;
-    display: flex;
-    flex-wrap: nowrap;
-    display: inline;
     font-size: small;
 }
 nav button{
@@ -59,13 +52,13 @@ nav button{
 }
 .logo{
     width: 5%;
+    min-width: 100px;
 }
 .enlaces{
+    text-align: center;
     align-items: center;
-    margin-left: 5rem;
 }
-.registro{
+.registroUsuario{
     display: flex;
-    flex-wrap: nowrap;
-    margin-left: 2rem;
+    flex-direction: column;
 }
