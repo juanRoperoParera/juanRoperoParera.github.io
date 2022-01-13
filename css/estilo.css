@@ -32,7 +32,6 @@ nav a{
     padding-left: 1rem;
     padding-right: 1rem;
     border-right: 1px solid white;
-
 }
 a.ultimoEnlace{
     border-right:none;
@@ -46,6 +45,7 @@ nav input{
     background-color: rgb(34, 34, 34);
     border: 1px solid white;
     color: white;
+    border-radius: 20px;
 }
 nav button{
     color: white;
@@ -54,6 +54,7 @@ nav button{
     font-family: inherit;
     border: 1px solid rgb(255, 255, 255);
     margin-top: 1rem;
+    border-radius: 20px;
 }
 .logo{
     width: 5%;
@@ -83,9 +84,9 @@ nav button{
 }
 .filas img{
     width: 100%;
-    display: block;
     -webkit-box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3); 
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
+    object-fit: cover;
 }
 .filas{
     width: 16.6%;
@@ -94,4 +95,12 @@ nav button{
 h2{
     text-align: center;
     font-size: xx-large;
+}
+nav a:hover{
+    background-color: rgb(233, 255, 224);
+    color: black;
+}
+.filas img:hover{
+    background-color: rgb(71, 117, 97);
+    color: black;
 }
