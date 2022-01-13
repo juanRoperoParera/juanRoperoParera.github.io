@@ -84,20 +84,11 @@ nav button{
     width: 100%;
     min-width: 100px;
 }
-.imagenes{
-    margin-top: 20rem;
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:0px;
-}
-.imagen img{
+.filas img{
     width: 100%;
 }
-.imagen{
-    width: 25%;
-    min-width: 280px;
+.filas{
+    width:33%
 }
 h2{
     text-align: center;
