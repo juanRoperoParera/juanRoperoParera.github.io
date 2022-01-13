@@ -18,7 +18,7 @@ nav{
     margin: 0px;
     margin-bottom: 5rem;
     z-index: 0px;
-    border-bottom: 4px solid rgb(71, 117, 97);
+    border-bottom: 4px solid rgb(40, 65, 54);
     -webkit-box-shadow: 0px 0px 22px 13px rgb(71, 117, 97); 
     box-shadow: 0px 0px 22px 13px rgb(71, 117, 97);
 }
@@ -101,6 +101,7 @@ nav a:hover{
     color: black;
 }
 .filas img:hover{
-    background-color: rgb(71, 117, 97);
-    color: black;
+    -webkit-box-shadow: 0px 0px 22px 13px rgb(40, 65, 53); 
+    box-shadow: 0px 0px 12px 0px rgb(40, 65, 53);
+    background-color: rgb(186, 199, 194);
 }
