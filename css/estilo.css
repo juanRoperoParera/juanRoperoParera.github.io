@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(199, 211, 205);
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,14 +16,15 @@ nav{
     flex-wrap: wrap;
     padding: 1rem;
     margin: 0px;
-    border-bottom: 4px solid rgb(114, 184, 153);
-    -webkit-box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3); 
-    box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3);
+    margin-bottom: 5rem;
+    z-index: 0px;
+    border-bottom: 4px solid rgb(71, 117, 97);
+    -webkit-box-shadow: 0px 0px 22px 13px rgb(71, 117, 97); 
+    box-shadow: 0px 0px 22px 13px rgb(71, 117, 97);
 }
 nav img{
     width: 100%;
     min-width: 100px;
-    border: 1px solid rgb(255, 255, 255);
 }
 nav a{
     color: white;
@@ -76,19 +77,19 @@ nav button{
 }
 /*MARCAS*/
 .marcas{
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-}
-.imagenes img{
-    width: 100%;
-    min-width: 100px;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(175, 187, 182);
 }
 .filas img{
     width: 100%;
+    display: block;
+    -webkit-box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
 }
 .filas{
-    width:33%
+    width: 16.6%;
+    display: flex;
 }
 h2{
     text-align: center;
