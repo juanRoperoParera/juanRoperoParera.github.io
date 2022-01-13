@@ -15,7 +15,7 @@ nav{
     margin: 0px;
     border-bottom: 4px solid rgb(114, 184, 153);
     -webkit-box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3); 
-box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 22px 13px rgba(0,0,0,0.3);
 }
 nav img{
     width: 100%;
@@ -42,8 +42,6 @@ nav input{
     background-color: rgb(34, 34, 34);
     border: 1px solid white;
     color: white;
-    font-family: inherit;
-    font-size: small;
 }
 nav button{
     color: white;
@@ -64,6 +62,14 @@ nav button{
 .registroUsuario{
     display: flex;
     flex-direction: column;
+    color: white;
+    font-family: inherit;
+    font-size: small;
+}
+.registroUsuarioPartes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 /*MARCAS*/
 .marcas{
