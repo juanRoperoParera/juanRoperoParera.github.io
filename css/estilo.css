@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(197, 197, 197);
     margin: 0px;
@@ -78,7 +81,7 @@ nav button{
     margin-top: 5rem;
 }
 .imagenes img{
-    width: 50%;
+    width: 100%;
     min-width: 100px;
 }
 .imagenes{
