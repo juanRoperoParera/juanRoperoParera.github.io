@@ -89,8 +89,8 @@ nav button{
     object-fit: cover;
 }
 .filas{
-    display:flex;
-    width: 16.6666%;
+    width: 16.6%;
+    display: flex;
 }
 h2{
     text-align: center;
@@ -104,5 +104,4 @@ nav a:hover{
     -webkit-box-shadow: 0px 0px 22px 13px rgb(40, 65, 53); 
     box-shadow: 0px 0px 12px 0px rgb(40, 65, 53);
     background-color: rgb(186, 199, 194);
-    border: 2px solid rgb(94, 99, 97);
 }
