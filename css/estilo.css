@@ -78,10 +78,11 @@ nav button{
 }
 /*MARCAS*/
 .marcas{
-    width: 70%;
+    width: 55%;
     margin: auto;
     background-color: rgb(175, 187, 182);
     position: relative;
+    margin-bottom: 10rem;
 }
 .filas img{
     width: 100%;
@@ -117,4 +118,21 @@ nav button:hover{
     -webkit-box-shadow: 0px 0px 22px 13px rgb(40, 65, 53); 
     box-shadow: 0px 0px 12px 0px rgb(40, 65, 53);
     background-color: rgb(186, 199, 194);
+}
+/*TABLA*/
+table{
+    margin-bottom: 8rem;
+    text-align: center;
+}
+.tabla img{
+    width: 100%;
+    object-fit: cover;
+}
+td{
+    width: 16.6666%;
+}
+.tabla{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 7rem;
 }
