@@ -108,8 +108,8 @@ h2{
     font-size: x-large;
 }
 nav a:hover{
-    background-color: rgb(233, 255, 224);
-    color: black;
+    text-decoration: underline rgb(233, 255, 224);
+    color: white;
 }
 nav button:hover{
     background-color: rgb(54, 73, 65);
@@ -121,6 +121,8 @@ nav button:hover{
 }
 /*TABLA*/
 table{
+    width: 70%;
+    margin: auto;
     margin-bottom: 8rem;
     text-align: center;
     border-collapse: collapse;
@@ -158,5 +160,5 @@ td{
     box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
 }
 tr:hover{
-    background-color: rgb(128, 165, 149);
+    background-color: rgb(71, 117, 97);
 }
