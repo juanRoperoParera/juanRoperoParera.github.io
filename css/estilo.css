@@ -123,10 +123,18 @@ nav button:hover{
 table{
     margin-bottom: 8rem;
     text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(199, 211, 205);
+    background-color: rgb(176, 185, 180);
 }
 .tabla img{
     width: 100%;
     object-fit: cover;
+    background-color: ;
+}
+thead{
+    background-color: rgb(71, 117, 97);
+    color: white;
 }
 td{
     width: 16.6666%;
@@ -135,4 +143,7 @@ td{
     width: 70%;
     margin: auto;
     margin-bottom: 7rem;
+}
+.nombre{
+    font-weight: bold;
 }
