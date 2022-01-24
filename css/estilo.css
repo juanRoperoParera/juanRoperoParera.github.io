@@ -126,6 +126,10 @@ table{
     border-collapse: collapse;
     border: 2px solid rgb(199, 211, 205);
     background-color: rgb(176, 185, 180);
+    -webkit-box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
+
 }
 .tabla img{
     width: 100%;
@@ -146,4 +150,10 @@ td{
 }
 .nombre{
     font-weight: bold;
+}
+.oscura{
+    background-color: rgb(159, 170, 164);
+    -webkit-box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 31px -22px rgba(0,0,0,0.75);
 }
